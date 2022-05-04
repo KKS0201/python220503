@@ -6,6 +6,11 @@ class Person:
     def printInfo(self):
         print("Info(Name:{0}, Phone Number: {1})".format(
             self.name, self.phoneNumber))
+    #추가 메서드
+    def methodA(self):
+        print("어떠 로직~~")
+    def methodB(self):
+        print("다른 로직~~")
 
 #자식 클래스 정의
 class Student(Person):
@@ -27,4 +32,6 @@ p = Person("전우치", "010-222-1234")
 s = Student("이순신", "010-111-1234", "컴공", "991122")
 p.printInfo()
 s.printInfo()
+s.methodA()
+s.methodB()
 
