@@ -8,7 +8,7 @@ class Person:
             self.name, self.phoneNumber))
     #추가 메서드
     def methodA(self):
-        print("어떠 로직~~")
+        print("어떤 로직~~")
     def methodB(self):
         print("다른 로직~~")
 
